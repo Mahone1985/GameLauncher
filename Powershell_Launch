@@ -1,0 +1,4 @@
+# PowerShell script to launch Saturn games straight to Mednafen
+$FileLocation = 'C:\Users\USERNAME\Desktop\mednafen2021\BATSUGUN.CUE'
+$ProgramLoc = 'C:\Users\USERNAME\Desktop\mednafen2021\mednafen.exe'
+& $ProgramLoc $FileLocation
